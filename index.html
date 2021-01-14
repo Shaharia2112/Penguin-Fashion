@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="short icon" href="images/Logo, Icon/favicon-32x32.png" type="image/x-icon">
 </head>
 <body>
     <header class="container">
@@ -19,14 +20,14 @@
               <div class="collapse navbar-collapse fw-bold fs-6" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
                   <a class="nav-link" href="#">Home</a>
-                  <a class="nav-link" href="#">Product</a>
-                  <a class="nav-link" href="#">About us</a>
+                  <a class="nav-link" href="#product">Product</a>
+                  <a class="nav-link" target="_blank" href="https://web.programming-hero.com/">About us</a>
                   <a class="nav-link" href="#">Contact us</a>
                 </div>
               </div>
             </div>
           </nav>
-          <div class="row d-flex align-items-center ">
+          <div class="row d-flex align-items-center">
             <div class="col-md-7">
                  <h1 class="display-2 fw-bold"><span  style="color: #FABE4C;">Be the Penguins</span></h1>
                  <h1 class="display-2 fw-bold"><span  style="color: #363958;">of Winter</span></h1>
@@ -38,7 +39,7 @@
             </div>
         </div>
     </header>
-    <main class="container mt-5">
+    <main id="product"class="container mt-5">
         <h1 class="display-5 fw-bold"><span style="color: #363958;">Woman Jacket</span></h1>
         <section class="mt-5">
           <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -101,7 +102,7 @@
             </div>
             </div>
         </section>
-        <section class="mt-5">
+        <section id="product" class="mt-5">
             <h3 class="display-5 fw-bold"><span style="color: #363958;">Man Jacket</span></h3>
             <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
               <div class="col">
@@ -202,7 +203,37 @@
                         <img src="images/Logo, Icon/XMLID 1.png" style="width: 100%;">
                     </div>  
             </section>
+            <section class="row">
+              <form class="col-md-4 justify-content-around mt-5">
+                <h1 class="form">Login: </h1>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input placeholder="Exp: shahariar2112@gmail.com" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input placeholder="Exp: programmingHero@123"type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+              <div class="col-md-4 justify-content-around mt-5">
+                     <h1 class="form">Special Instruction For Our Company: </h1>
+                     <p><lable for=""><textarea name="" id="" cols="30" rows="10"></textarea></lable></p>
+                     <button class="button" type="submit">Submit Your Comment</button>
+              </div>
+              <div class="col-md-4 row align-items-center mt-5">
+                <img src="images/Logo, Icon/shop.jpg">
+              </div>
+            </section>
             </main>
+            <footer class="container text-center mt-5">
+              <small style="color: dimgray;" >©2020. Penguin Commerce. All rights reserved. Shahariar, Bangladesh.</small>
+            </footer>
     
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
