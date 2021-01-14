@@ -1,3 +1,26 @@
-.logo img{
+*{
+    margin:0;
+    padding:0;
+}
+.details-image img{
     width:50%;
+}
+.details{
+    border-radius: 20px;
+}
+.details{
+    border-radius: 15px;
+}
+.button{
+    background-image: linear-gradient(50deg,rgb(72, 248, 72),#9CB53B);
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    color:white;
+}
+.penguin-card{
+    border-radius: 25px;
+}
+.price h1{
+    color:#FABE4C;
 }
